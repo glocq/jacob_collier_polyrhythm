@@ -1,1 +1,9 @@
-# jacob_collier_polyrhythm
+# Jacob Collier's "favorite polyrhythm", demonstrated
+
+In [this video](https://www.youtube.com/watch?v=S5D4rVNNxak), Jacob Collier demonstrates the 2+3+4+5+6 polyrhythm, before saying it's a "major chord slowed down". This code snippet lets you play around with the polyrhythm and speed it up to the audible range.
+
+Interactive demo [here](https://faustide.grame.fr/?autorun=1&voices=0&name=JC_polyrhythm&inline=aW1wb3J0KCJzdGRmYXVzdC5saWIiKTsKCnMyID0gZ2FpbjIgKiBvcy5sZl9zYXcoZjApOwpzMyA9IGdhaW4zICogb3MubGZfc2F3KGYwKjMvMik7CnM0ID0gZ2FpbjQgKiBvcy5sZl9zYXcoZjAqMik7CnM1ID0gZ2FpbjUgKiBvcy5sZl9zYXcoZjAqNS8yKTsKczYgPSBnYWluNiAqIG9zLmxmX3NhdyhmMCozKTsKCmYwID0gYmEubWlkaWtleTJoeihuZW50cnkoIk1JREkgcGl0Y2giLCAtNDUsIC01MCwgMTAwLCAxKSk7CgpnYWluMiA9IGhzbGlkZXIoIkdhaW4gMiIsIDEsIDAsIDEsIDAuMDEpOwpnYWluMyA9IGhzbGlkZXIoIkdhaW4gMyIsIDEsIDAsIDEsIDAuMDEpOwpnYWluNCA9IGhzbGlkZXIoIkdhaW4gNCIsIDEsIDAsIDEsIDAuMDEpOwpnYWluNSA9IGhzbGlkZXIoIkdhaW4gNSIsIDEsIDAsIDEsIDAuMDEpOwpnYWluNiA9IGhzbGlkZXIoIkdhaW4gNiIsIDEsIDAsIDEsIDAuMDEpOwoKcHJvY2VzcyA9IChzMitzMytzNCtzNStzNikvNSA6IGZpLmJhbmRwYXNzKDEsIDUwLCAyMDAwKSA8OiAoXyxfKTsK)
+
+Upon clicking on the link, you should be able to hear the same polyrhythm as in the video — except finger taps have been replaced by uglier, but more easily managed, clicks. The five "Gain" sliders in the bottom panel let you independently control the volume of each finger.
+
+By default, the "finger taps" you hear are roughly the same speed as in the video. This means the lowest finger is playing about 9 octaves and a half below A440. The corresponding MIDI note number is -45. You can change the pitch using the "MIDI pitch" number box in the bottom panel. You may either change it semitone y semitone, or directly input a value. Try increasing it to 60, which corresponds to the C below A440 (warning: it gets loud!)
